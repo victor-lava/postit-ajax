@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Postit</title>
+        <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+      <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <form id="search" action="https://postit.lt/data/v2/" method="GET">
+            <div>
+                <label for="city">Miestas</label>
+                <input type="text" id="city" name="city">
+            </div>
+
+            <div>
+                <label for="city">Gatvė</label>
+                <input type="text" id="street" name="street">
+            </div>
+
+            <div>
+                <label for="city">Namo numeris</label>
+                <input type="text" id="number" name="number">
+            </div>
+
+            <div>
+                <button type="submit">
+                    Išsiųsti
+                </button>
+            </div>
+        </form>
+    </body>
+</html>
